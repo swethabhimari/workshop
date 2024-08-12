@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <pre>
+    <h1>HTML WorkShop:</h1>
+    <h3>Stage-1:</h3>
+    <b>1 .What is the difference between div and span?</b>
+    <b> Ans:  Div:</b>
+            < div >is a block-level element, which always starts on a new line and takes up the full width of the screen.
+            < div > elements are typically used for layout and formatting purposes, such as creating containers, sections, or divisions within a page
+           <b>Span:</b>
+           < span > is an inline element, which is used to highlight the specific text and doesn't start on a new line.
+           < span > elements are used to apply styles or semantics to a small portion of text or inline elements.<hr>
+ <b>2. What are the semantic elements in html?</b>
+    <B>Ans:</B>Semantic elements in HTML are elements that provide meaning to the structure of a web page, making it easier for search engines, screen readers, and other tools to understand the content and context. Here are some common semantic elements in HTML.
+           <b>examples:</b>1. < header>: Defines the header section of a document .
+                            2.< nav>: Defines a set of navigation links.<hr>
+ <b>3.What is the difference between href and src attribute?</b>   
+  <b>Ans: href:</b>href (Hypertext Reference):
+           Used in anchor tags (<a>) to create hyperlinks to other web pages or email addresses.
+           Specifies the URL of the page or resource to link to.
+           When clicked, the browser navigates to the linked page .
+           Example: < a href="(link unavailable)">Visit Example < /a>
+
+         <b>src:</b>src(source):
+         Used in tags like < img>, < script>, < iframe>, and < video> to link to external resources like images, scripts, or videos.
+         Specifies the URL of the resource to embed or load.
+         The browser loads the resource from the specified URL and displays or executes it.
+            
+            Example: < img src="image.jpg"  alt="An image" ><hr>
+ <b>4. What is the difference between xml and html?</b>
+ <b>Ans:</b> 
+             <b>HTML</b>: Primarily used for creating web pages and displaying content on the internet.
+                          HTML is used for presentation.
+             <b>XML</b>: Designed for storing, transporting, and exchanging data between systems, applications, and organizations.
+                         XML is used for data exchange and storage.<hr>
+   <b>5.What are the list tags and how many are they?</b>   
+   <b>Ans:</b>These tags helps to create structured lists in HTML, making content more easier to understand.
+       1.<b> Ordered Lists (< ol>):</b> Used for lists where the order of items matters, such as a recipe or instructions. The list items are numbered automatically.
+
+        2. <b>Unordered Lists (< ul>):</b> Used for lists where the order of items doesn't matter, such as a shopping list or a list of features. The list items are marked with bullets.
+    
+        3. <b>Definition Lists (< dl>):</b> Used for lists of terms and definitions, such as a glossary or a dictionary. The list items consist of a term (< dt>) and a definition (< dd>).
+        <b>syntax:</b>
+        ordered list:
+        < ol >
+          < li>< /li >
+         < li>< /li >
+        < /ol >
+         unordered list:
+       < ul >
+        < li>< /li >
+        < li>< /li >
+       < /ul >
+        description list:
+         < dl >
+        < dt>< /dt >
+        < dd >< /dd >
+       < /dl ><hr>
+        <b>6.Create a iframe where a single iframe can open multiple links in it?</b>
+        <b>Ans:</b>
+                  < iframe src="link " name="example" ></ iframe>
+                   < a  href="link"    target="example">image</ a>
+                   < a  href="link"    target="example"> video </ a><hr>
+        <b>7.Create a register form using name ,email,age,privacy policies and submit and do validations?</b>    
+   <b>Ans:</b>
+           < form action=" file name" >
+           < input type="name" >
+           < input type="email" >
+           < input type="age" >
+           < input type="checkbox">I accept all privacy & policy
+           < input type="button" value="submit">
+           </ form><hr>
+           <h1>Git Workshop:</h1>
+           <h3>Stage-2:</h3>
+             <b>1.What is the command for connecting local repo and github repo</b>
+              git remote add origin(paste github link)-used to connect local repo and github repo.
+           
+             <b>2.Git command to change the directory of local folder?</b> 
+                git cd (directory name)-used to change the directory of local folder.
+
+             <b>3.Git command to check the commits in the project?</b>
+                 git  status-used to chect the commits.
+                 
+             <b>4.Git command for pushing all the code to ravi branch?</b>   
+                 git branch ravi
+                 git add .(used to push all the code into the git).
+
+             <b>5.Difference between push and pull commands in git?</b>  
+                Push:push command is used to push the code file from vscode through git to github.  
+                Pull:is used to pull the code file from github to vs code through git.
+
+             <b>6.Command to chech no. of branches and command to switch the branch?</b>
+                   git branch(used to check number of branches)
+                   git checkout-used to switch the branch.
+
+             <b>7.What are the stages of our project to reach to github repo?</b> 
+                    stages:
+                    1.Working directory
+                    2.Staging area 
+                    3.Local repository
+                    4.Remote repository.
+
+             <b>8.The commands which we use in staging area?</b>
+                   git add(filename)
+                   git add .(adds all the files)
+                   git commit -m(message).
+            </pre>  
+</body>
+</html>
